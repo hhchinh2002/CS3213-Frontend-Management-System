@@ -6,6 +6,8 @@ on:
     branches:
       - master
 
+  workflow_dispatch:
+
 env:
   AZURE_CONTAINER_REGISTRY: "fmdevsimgs"
   RESOURCE_GROUP: "FMDevs_group"
